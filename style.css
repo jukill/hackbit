@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: chartreuse;
+}
+
+
+@font-face {
+    font-family: "digi";
+    src: url('font.ttf');
+    }
+
+.digital {
+    font-family: "digi";
+    }
+
+@font-face {
+    font-family: "signal";
+    src: url('signal.otf');
+    }
+
+.signal {
+    font-family: "signal";
+    letter-spacing: 3px;
+    }
+
+.card{
+    background-color: black; 
+    color: chartreuse;
+    margin: auto;
+    width: 100%;
+}
+.form-control{
+    background-color: black;
+    color: chartreuse;
+    width: 90%;
+}
+.btn{
+    background-color: chartreuse;
+    color: black;
+}
+.row{
+    overflow: hidden;
+    margin: 0px;
+}
